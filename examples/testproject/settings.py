@@ -137,3 +137,8 @@ WAMP_CONNECTION = {
     'AUTHSECRET': 'changeme',
     'REALM': "realm",
 }
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass

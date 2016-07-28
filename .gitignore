@@ -66,6 +66,7 @@ mailhog
 
 # Django
 staticfiles/
+local_settings.py
 
 # pytest cache??
 .cache/
