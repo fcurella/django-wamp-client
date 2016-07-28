@@ -22,7 +22,7 @@ In your settings, configure your connection to the WAMP Router::
         'URL': "ws://127.0.0.1:9100/ws",
         'AUTHID': 'authid',
         'AUTHSECRET': 'secret',
-        'REALM': "realname",
+        'REALM': "realmname",
     }
 
 Configure your routing to include ``wampclient.routing``::
