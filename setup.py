@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-wamp-client',
-    version="0.0.2",
+    version="0.0.3",
     description='Wamp Client for Django Channels',
     long_description='',
     author='Flavio Curella',
